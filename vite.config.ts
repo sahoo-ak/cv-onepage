@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: '/cv-onepage/', // Add this line for GitHub Pages compatibility
+  base: './', // Add this line for GitHub Pages compatibility
   plugins: [
     react(),
     mode === 'development' &&
